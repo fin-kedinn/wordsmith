@@ -3,5 +3,15 @@
  */
 public class Documents {
     private String title;
+    private String contents;
+
+    public Documents(){
+
+    };
+
+    public Documents(String title){
+        this.title= title;
+
+    };
 
 }
